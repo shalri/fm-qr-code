@@ -13,16 +13,42 @@
     <title>Frontend Mentor | QR code component</title>
   </head>
   <body class="flex min-h-screen w-full flex-col font-outfit">
-    <main class="h-full flex-grow"></main>
-    <footer class="justify-end text-center text-[11px]">
+    <main
+      class="mx-auto flex h-full min-w-[375px] max-w-[1440px] flex-grow items-center justify-center border-black py-16"
+    >
+      <div class="h-[497px] w-[320px] rounded-[20px] bg-white drop-shadow-md">
+        <div class="p-4">
+          <img
+            src="/image-qr-code.png"
+            width="288px"
+            height="288px"
+            alt="qr code"
+            class="rounded-[10px]"
+          />
+          <h1
+            class="pt-6 text-center text-[22px] font-bold leading-tight text-qr-dark-blue"
+          >
+            Improve your front-end skills by building projects
+          </h1>
+          <p class="pt-4 text-center leading-tight text-qr-gray-blue">
+            Scant the QR code to visit Frontend Mentor and take your coding
+            skill to the next level
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer class="justify-end py-6 text-center text-[12px]">
       Challenge by
       <a
+        class="text-qr-dark-blue"
         href="https://www.frontendmentor.io?ref=challenge"
         target="_blank"
         class=""
         >Frontend Mentor</a
       >. Coded by
-      <a href="https://github.com/shalri">FScode &middot; Shalri</a>.
+      <a class="text-qr-dark-blue" href="https://github.com/shalri"
+        >FScode &middot; Shalri</a
+      >.
     </footer>
   </body>
 </html>
